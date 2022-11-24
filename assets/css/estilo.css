@@ -1,3 +1,52 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
 
+.header {
+  background-color: aqua;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav__titulo {
+  font-size: x-large;
+  color: gold;
+}
+.header__nav__lista {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.header__nav__lista__item {
+  list-style: none;
+  padding: 2%;
+  color: green;
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: column;
+}
+.imagenes__tema {
+  margin: 2%;
+}
+.imagenes__contenedor {
+  display: flex;
+}
+.imagenes__contenedor__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.imagenes__contenedor__card__img {
+  width: 100%;
+}
+.imagenes__contenedor__card__boton {
+  width: 70%;
+}
 
 /*# sourceMappingURL=estilo.css.map */
