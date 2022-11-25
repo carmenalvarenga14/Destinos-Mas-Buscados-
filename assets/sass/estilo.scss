@@ -34,28 +34,65 @@
     flex-direction: column;
 
     &__tema{
-        margin: 2%;
-    }
-
-    &__contenedor{
-        display: flex;
+    
+        color: violet;
+       &__contenedor{
+         display: flex;
+         width: 100%;
             &__card{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                margin: 2%;
+                 margin: 1%;
+                 width:90% ;
                     &__img{
                         width: 100%;
-                     
-                    }
-
-                    &__boton{
-                        width: 70%;
+                        margin: 1% ;
+                        &__boton{
+                            width: 100%;
+                            background-color: rgb(109, 175, 230);
+                            width: 100%;
+                            border: none;
                       
-                    }
+                        }
+                     }
+             }
+        }
+    }
 
+}  
+.cont {
+    display: flex;
+    width: 100%;
+    &__caja{
+       width: 25%;
+      margin: 1%;
+
+    &__img{
+        width: 100%;
+        &__num{
+            color: rgb(190, 33, 156);
+            &__text{
+                color: purple;
+                text-align: justify;
+                &__btn{
+                    background-color: rgb(17, 114, 194);
+                    width: 100%;
+                    border: none;
                 }
             }
+        }
+        
+    }
 
-            }
+  } 
+}
+.color{
+    color:purple;
+    text-align: justify;
+   font-size: 1.5rem;
+}
+
+
+
