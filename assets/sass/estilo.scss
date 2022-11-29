@@ -28,7 +28,10 @@
     }
 }
 }
-
+main{
+    background: rgb(20,188,238);
+background: linear-gradient(0deg, rgba(20,188,238,1) 26%, rgba(132,6,148,1) 43%, rgba(171,4,112,1) 66%, rgba(0,212,255,1) 100%);
+}
 .imagenes{
     display: flex;
     flex-direction: column;
@@ -93,6 +96,16 @@
     text-align: justify;
    font-size: 1.5rem;
 }
+section h1 {
+    text-align: center;
+}
 
-
+.input {
+    width: 90%;
+    margin-bottom: 3px;
+}
+.input1{
+    height: 200px;
+    width: 90%;
+}
 

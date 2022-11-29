@@ -25,6 +25,11 @@
   color: green;
 }
 
+main {
+  background: rgb(20, 188, 238);
+  background: linear-gradient(0deg, rgb(20, 188, 238) 26%, rgb(132, 6, 148) 43%, rgb(171, 4, 112) 66%, rgb(0, 212, 255) 100%);
+}
+
 .imagenes {
   display: flex;
   flex-direction: column;
@@ -83,6 +88,20 @@
   color: purple;
   text-align: justify;
   font-size: 1.5rem;
+}
+
+section h1 {
+  text-align: center;
+}
+
+.input {
+  width: 90%;
+  margin-bottom: 3px;
+}
+
+.input1 {
+  height: 200px;
+  width: 90%;
 }
 
 /*# sourceMappingURL=estilo.css.map */
