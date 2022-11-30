@@ -4,7 +4,7 @@
 }
 
 .header {
-  background-color: aqua;
+  background-color: black;
 }
 .header__nav {
   display: flex;
@@ -22,7 +22,7 @@
 .header__nav__lista__item {
   list-style: none;
   padding: 2%;
-  color: green;
+  color: gold;
 }
 
 main {
@@ -72,10 +72,10 @@ main {
   width: 100%;
 }
 .cont__caja__img__num {
-  color: rgb(190, 33, 156);
+  color: black(190, 33, 156);
 }
 .cont__caja__img__num__text {
-  color: purple;
+  color: white;
   text-align: justify;
 }
 .cont__caja__img__num__text__btn {
@@ -85,7 +85,7 @@ main {
 }
 
 .color {
-  color: purple;
+  color: black;
   text-align: justify;
   font-size: 1.5rem;
 }
@@ -95,13 +95,17 @@ section h1 {
 }
 
 .input {
-  width: 90%;
+  width: 100%;
   margin-bottom: 3px;
 }
 
 .input1 {
   height: 200px;
-  width: 90%;
+  width: 100%;
+}
+
+.boton {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
